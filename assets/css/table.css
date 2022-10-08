@@ -1,0 +1,32 @@
+table {
+    border: solid 8px var(--border-color);
+    padding: 10px;
+}
+
+td {
+    border: solid 3px var(--border-color);
+}
+
+td {
+    width: 100px;
+    height: 100px;
+}
+
+input[type="text"] {
+    width: 98%;
+    height: 100%;
+    border: none;
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+.ux-hidden {
+    background-color: var(--background-color);
+    color: var(--background-color);
+}
+
+.ux-clear {
+    background-color: white;
+}
